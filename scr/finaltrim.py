@@ -64,12 +64,12 @@ vidarr = [
     "ATLAS3EP18-21",
 ]
 
-mins = 1  # Video duration
+mins = 10  # Video duration
 time = (mins - 0.25) * 60  # Second conversion
 current = 0  # Variable for current time
 
 start_time = rand.random() * 17 * 60 + 180  # Trim from random time seconds
-end_time = start_time + 15  # Trim until start_time + 15 seconds
+end_time = start_time + 10  # Trim until start_time + 15 seconds
 
 output_directory = "FinishedClips"
 
